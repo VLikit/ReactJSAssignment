@@ -23,6 +23,22 @@
   color: #61dafb;
 }
 
+.formtext {
+  position: relative;
+  top: -48px;
+  background: white;
+  padding: 7px;
+  width: 57px;
+  color: red;
+}
+
+form {
+  border: thin solid red;
+  padding: 1.5rem;
+  margin: 1rem;
+  display: flex;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +46,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+thead {color:green;}
+tbody {color:blue;}
+table, th, td,tbody {
+ border: 1px solid black;
+}
+td, th{
+ padding: 5px;
 }
